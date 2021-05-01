@@ -53,11 +53,11 @@ height: 100vh;
      background-color: #ffffff;
      width: 100%;
      padding: 1,3rem 0 ;
-     border: 1px solid lightgray;
+     border: 1,5px solid lightgray;
 
  }
   .group:nth-child(1){
-      min-height: 19rem;
+      min-height: 20rem;
 
   }
   .instagram-logo{
@@ -72,7 +72,7 @@ height: 100vh;
 
   }
   .porfile-photo img{
-     height: 6rem; 
+     height: 7rem; 
   }
 
   .instagram-login{
@@ -88,10 +88,18 @@ height: 100vh;
   }
   .not-account{
       color:rgb(160,160,160);
-      margin-top: 1rem;
+      margin-top: 2rem;
+      
+  }
+
+ p.notaccount{
+      margin: 1rem;
   }
   .link-blue{
       color:#d480ba;
+      margin:0rem;
+      padding: 0px;
+      
       
   }
   .get-the-app{
@@ -100,7 +108,7 @@ height: 100vh;
       align-items: center;
       justify-content: center;
       width: 100%;
-      padding: 1,3rem 0;
+      padding: 2rem 0;
   }
   .download{
       display: flex;
@@ -116,9 +124,9 @@ height: 100vh;
   }
 
   .app-download:nth-child(1){
-       background-image:url(img/appstore.jpg);
+       background-image:url(img/appstore.png);
 
   }
   .app-download:nth-child(2){
-      background-image:url(img/appstore.jpg);
+      background-image:url(img/googleplay.png);
   }
